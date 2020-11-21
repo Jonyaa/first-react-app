@@ -1,7 +1,5 @@
-* 
-    padding: 0
-    margin: 0
-    box-sizing: border-box 
+// Libraries imports
+@import '~premade/premade'
 
 
 html, body 
@@ -13,10 +11,7 @@ html, body
 
 div.section 
     font-family: system-ui, Helvetica, sans-serif
-    position: absolute
-    top: 50%
-    left: 50%
-    transform: translate(-50%, -50%)
+    +abscenter() // From premade
     white-space: nowrap
     text-align: center
 
