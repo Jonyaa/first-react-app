@@ -11,9 +11,13 @@ html, body
 
 div.section 
     font-family: system-ui, Helvetica, sans-serif
-    +abscenter() // From premade
+    //+abscenter() // From premade
     white-space: nowrap
     text-align: center
+    height: 200vh
+    position: relative
+    +flexcenter()
+    flex-flow: column
 
     h1 
         font-weight: lighter
